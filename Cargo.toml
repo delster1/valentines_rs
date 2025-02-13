@@ -1,0 +1,11 @@
+[package]
+name = "valentines_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.39"
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+reqwest = "0.12.12"
+tokio = { version = "1", features = ["full"] }
